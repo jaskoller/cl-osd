@@ -2,7 +2,7 @@
 
 = Prerequisites =
 
-  # Download and install [www.atmel.com/avrstudio AVR Studio 5]
+  # Download and install [http://www.atmel.com/avrstudio AVR Studio 5]
   # Download and install [http://tortoisesvn.net/ TortoiseSVN]
 
 = Getting the code =
