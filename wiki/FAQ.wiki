@@ -7,7 +7,7 @@ I do this project for fun, so I will be added when I have time for it.
 See page [Features].
 
 ==How do I compile & program my board?==
-See page [Compile] and [Programming].
+See page [CompileProgram] and [Programming].
 
 ==I found a bug, what should I do?==
 Add it to the issues page with info about how to reproduce it etc. I will have a look at is when I can.
