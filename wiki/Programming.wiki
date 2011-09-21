@@ -35,9 +35,9 @@ Connect each of the cables together with jumper cables according to the followin
 http://iharis.com/assets/images/AVR_ISP_.png
 
 *Note that this pinout is for the header and not the cable.* 
+Just to make everything a bit more complicated. I could not find a pinout image for the cable.
 
 VTG should be connected to +5 Volt.
-Just to make everything a bit more complicated. I could not find a pinout image for the cable.
 
 See below for the difference a between the cable and the header:
 
