@@ -7,7 +7,7 @@
 
 = Getting the code =
 
-  # Go to a folder where you whant the code.
+  # Go to a folder where you want the code.
   # Press right button in folder
   # Select "SVN Checkout"
   # Enter url of cl-osd: "http://cl-osd.googlecode.com/svn/trunk/"
