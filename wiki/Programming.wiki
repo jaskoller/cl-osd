@@ -1,0 +1,49 @@
+#summary Programming cl-osd onto board.
+
+= Programmer = 
+
+You need a AVR programmer in order to program the chip on the board.
+There are several different types of programmers and in this case I will focus on USBASP since that's what I use and it's cheap.
+
+= Soldering =
+
+There are six pads on the boards that you need to either solder cables to or add a socket to.
+
+The pitch of the pads are 2.0 mm which means that we need a special socket that has 2.0 mm pitch. If you don't have those at hand you can use a normal 2.45 mm pitch socket as Parity has done here:
+
+[http://static.rcgroups.net/forums/attachments/3/7/6/4/4/5/a4278685-209-g-osd_byParity.jpg http://static.rcgroups.net/forums/attachments/3/7/6/4/4/5/t4278685-70-thumb-g-osd_byParity.jpg?d=1316005018]
+
+Then you can use some sort of jumper cable sutch as these:
+
+[http://dlnmh9ip6v2uc.cloudfront.net/images/products/JumperWire-Male-01-L.jpg http://dlnmh9ip6v2uc.cloudfront.net/images/products/JumperWire-Male-01-L_i_ma.jpg]
+
+= Connecting board and programmer =
+
+Now it's time to connect the board with the programmer.
+Connect each of the cables together with jumper cables according to the following images:
+
+== E-OSD programming pins (by kristaps_r) ==
+
+[http://static.rcgroups.net/forums/attachments/3/1/3/1/1/2/a4051434-140-E-OSD.jpg http://static.rcgroups.net/forums/attachments/3/1/3/1/1/2/t4051434-191-thumb-E-OSD.jpg?d=1306862619]
+
+== G-OSD programming pins ==
+
+[http://static.rcgroups.net/forums/attachments/3/5/5/0/1/6/a4218208-52-2011-08-18_00-48-00_681%20copy.jpg http://static.rcgroups.net/forums/attachments/3/5/5/0/1/6/t4218208-28-thumb-2011-08-18_00-48-00_681%20copy.jpg?d=1313621628]
+
+== AVR ISP programming header ==
+
+http://iharis.com/assets/images/AVR_ISP_.png
+
+*Note that this pinout is for the header and not the cable.* 
+Just to make everything a bit more complicated. I could not find a pinout image for the cable.
+
+See below for the difference a between the cable and the header:
+
+http://iharis.com/assets/images/AVR_ISP_HEADER02.jpg
+
+= Details =
+
+Add your content here.  Format your content with:
+  * Text in *bold* or _italic_
+  * Headings, paragraphs, and lists
+  * Automatic links to other wiki pages
