@@ -1,0 +1,24 @@
+#summary How to get and compile cl-osd
+
+= Prerequisites =
+
+  # Download and install [www.atmel.com/avrstudio AVR Studio 5]
+  # Download and install [http://tortoisesvn.net/ TortoiseSVN]
+
+= Getting the code =
+
+  # Go to a folder where you whant the code.
+  # Press right button in folder
+  # Select "SVN Checkout"
+  # Enter url of cl-osd: "http://cl-osd.googlecode.com/svn/trunk/"
+  # Press OK.
+
+= Compile =
+
+  # Open "cl-osd.avrgccproj" inside the "cl-osd" folder you created in the last step.
+  # I the top you see a list with Debug, E-OSD etc. Select the board you whant to build for.
+  # Press Build -> Clean cl-osd. (Only needed first time!)
+  # Press Build -> Build cl-osd. (First time you might be asked to save a solutions file. Place this in the same folder as the other files)
+  # In your folder cl-osd/X-OSD (where X is your target board) there should be a cl-osd.hex and a cl-osd.eep. That's the flash file and the eeprom file.
+
+Continue to [Programming].
