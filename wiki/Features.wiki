@@ -1,10 +1,14 @@
 #summary Current features of project
 
-=cl-osd on E-OSD features==
+= cl-osd features=
+
+These features are the current progress for r31.
+
+==E-OSD==
   * Run time
   * 2 Voltage inputs (one can be used for RSSI)
 
-==cl-osd on G-OSD features==
+==G-OSD==
   * Run time
   * 3 Voltage inputs (two can be used for RSSI)
   * GPS data
