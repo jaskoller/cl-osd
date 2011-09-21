@@ -1,0 +1,22 @@
+#summary Current features of project
+
+==E-OSD features==
+  * Run time
+  * 2 Voltage inputs (one can be used for RSSI)
+
+==G-OSD features==
+  * Run time
+  * 3 Voltage inputs (two can be used for RSSI)
+  * GPS data
+    * Lat, Long pos
+    * Speed
+    * Altitude
+    * Time (UTC)
+    * Date
+    * Bearing
+  * Home calculations
+    * Distance to home
+    * Bearing to home
+    * Altitude above home
+    * Arrow home
+
