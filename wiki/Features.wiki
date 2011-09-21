@@ -18,6 +18,8 @@ These features are the current progress for r31.
     * Time (UTC)
     * Date
     * Bearing
+    * Satelites
+    * Fix or not
   * Home calculations
     * Distance to home
     * Bearing to home
