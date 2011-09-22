@@ -25,3 +25,6 @@ These features are the current progress for r31.
     * Bearing to home
     * Altitude above home
     * Arrow home
+    * Auto set home position (Also manual)
+  * Support for imperial units
+  * Global config options available in config.h.
