@@ -11,3 +11,8 @@ See page [CompileProgram] and [Programming].
 
 ==I found a bug, what should I do?==
 Add it to the issues page with info about how to reproduce it etc. I will have a look at is when I can.
+
+==I would like to help out, what should I do?==
+
+Learn how to compile and program the board and then check the issues and try to fix any of them. Or you could try to add more features.
+Contact me and I will add your code to svn.
