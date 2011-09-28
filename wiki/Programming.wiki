@@ -52,6 +52,8 @@ But in this example we use avrdude, get it [http://www.nongnu.org/avrdude/ here]
 
 = Programming =
 
+*NOTE: Do not change the fuses on the AVR! You might brick you chip.*
+
   * Press Start button -> Run -> type cmd -> OK
   * Type avrdude and press enter to make sure avrdude is installed correctly.
   * Move to the cl-osd dir (example "cd c:\save\cl-osd")
