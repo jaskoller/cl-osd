@@ -50,6 +50,8 @@ For example some programmers such as the STK500 are able to program using the AV
 
 But in this example we use avrdude, get it [http://www.nongnu.org/avrdude/ here].
 
+If you have an atmega88PA instead of an atmega88 look [http://www.avrfreaks.net/index.php?name=PNphpBB2&file=printview&t=100557&start=0 here].
+
 = Programming =
 
 *NOTE: Do not change the fuses on the AVR! You might brick you chip.*
