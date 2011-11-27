@@ -16,3 +16,9 @@ Add it to the issues page with info about how to reproduce it etc. I will have a
 
 Learn how to compile and program the board and then check the issues and try to fix any of them. Or you could try to add more features.
 Contact me and I will add your code to svn.
+
+==Is there a schematics over E-OSD / G-OSD?==
+
+There is a schematic for E-OSD [http://static.rcgroups.net/forums/attachments/3/6/2/8/4/1/a4069376-238-e-osd.png here].
+
+No schematic for G-OSD but it's almost the same. Some pins on the µP has changed.
