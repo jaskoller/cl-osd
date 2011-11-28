@@ -31,6 +31,22 @@ On E-OSD: There is no simple tweek right now but here is one way:
 In hardware.h look for ADC_MULT and ADC_DIV. These are arrays with values for all adc inputs. If your voltage is too high set it to example mult 9 and div 10. Or the other way around if voltage is too low. Here is a simplification of the equation used for the inputs:
 
 {{{
-ADC = (IN[x] * ADC_MULT[x]) / ADC_DIV[x]
+Voltage = (IN[x] * ADC_MULT[x]) / ADC_DIV[x]
+x = ADC input. In the case of E-OSD only 0 since 1 is used by RSSI.
 }}}
-Dont use too high values or you might overflow the variable!
+*Note 1*: Dont use too high values or you might overflow the variable!
+
+*Note 2*: Also only use integers!
+
+An example:
+If we see a too high voltage reading on voltage 1 then ADC_MULT and  should be changed from:
+{{{
+#define ADC_MULT 1, 1
+#define ADC_DIV 1, 1
+}}}
+to:
+{{{
+#define ADC_MULT 9, 1
+#define ADC_DIV 10, 1
+}}}
+So if the measured voltage was 2 Volts it would show as (2 x 9) / 10 = 1,8 Volts on the screen.
