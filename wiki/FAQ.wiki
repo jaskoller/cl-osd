@@ -23,7 +23,7 @@ There is a schematic for E-OSD [http://static.rcgroups.net/forums/attachments/3/
 
 No schematic for G-OSD but it's almost the same. Some pins on the µP has changed.
 
-==How to trim the votages with CL-OSD?==
+==How to trim the voltages?==
 
 On G-OSD: Use the pots on the board. Two of them are for the inputs and the third does nothing right now.
 
