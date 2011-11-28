@@ -30,6 +30,7 @@ On G-OSD: Use the pots on the board. Two of them are for the inputs and the thir
 On E-OSD: There is no simple tweek right now but here is one way:
 In hardware.h look for ADC_MULT and ADC_DIV. These are arrays with values for all adc inputs. If your voltage is too high set it to example mult 9 and div 10. Or the other way around if voltage is too low. Here is a simplification of the equation used for the inputs:
 
+{{{
 ADC = (IN[x] * ADC_MULT[x]) / ADC_DIV[x]
-
+}}}
 Dont use too high values or you might overflow the variable!
