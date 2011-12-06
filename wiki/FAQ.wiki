@@ -50,3 +50,7 @@ to:
 #define ADC_DIV 10, 1
 }}}
 So if the measured voltage was 2 Volts it would show as (2 x 9) / 10 = 1,8 Volts on the screen.
+
+
+==How do I change the screen update speed?==
+No quick fix for this either yet but [http://www.rcgroups.com/forums/showpost.php?p=19802356&postcount=755 here] is a post about it.
