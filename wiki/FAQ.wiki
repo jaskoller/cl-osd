@@ -54,3 +54,6 @@ So if the measured voltage was 2 Volts it would show as (2 x 9) / 10 = 1,8 Volts
 
 ==How do I change the screen update speed?==
 No quick fix for this either yet but [http://www.rcgroups.com/forums/showpost.php?p=19802356&postcount=755 here] is a post about it.
+
+==How can I remove the grey text background==
+Look [http://www.rcgroups.com/forums/showpost.php?p=19511436postcount=462 here].
