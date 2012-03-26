@@ -7,10 +7,13 @@ These features are the current progress for r31.
 ==E-OSD==
   * Run time
   * 2 Voltage inputs (one can be used for RSSI)
+  * Support for current sensor (with additional hardware)
+  * Possible to upgrade to GPS and home calculations but requires some advanced soldering.
 
 ==G-OSD==
   * Run time
   * 3 Voltage inputs (two can be used for RSSI)
+  * Support for current sensor (with additional hardware)
   * GPS data
     * Lat, Long pos
     * Speed
@@ -27,5 +30,4 @@ These features are the current progress for r31.
     * Arrow home
     * Auto set home position (Also manual)
   * Support for imperial units
-  * Support for current sensor (with additional hardware)
   * Global config options available in config.h.
