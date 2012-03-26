@@ -16,6 +16,10 @@
 = Compile =
 
   # Open "cl-osd.avrgccproj" inside the "cl-osd" folder you created in the last step.
+  # If you are using Avr Studio 5.1.208 or higher you need to do the following steps:
+    * Go to Project->cl-osd Properties...
+    * Toolchain->Avr/GNU C Linker->Memory Settings
+    * In "Initial Stack Address (hex)" clear that box.
   # I the top you see a list with Debug, E-OSD etc. Select the board you whant to build for.
   # Press Build -> Clean cl-osd. (Only needed first time!)
   # Press Build -> Build cl-osd. (First time you might be asked to save a solutions file. Place this in the same folder as the other files)
