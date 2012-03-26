@@ -27,4 +27,5 @@ These features are the current progress for r31.
     * Arrow home
     * Auto set home position (Also manual)
   * Support for imperial units
+  * Support for current sensor (with additional hardware)
   * Global config options available in config.h.
