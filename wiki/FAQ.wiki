@@ -57,3 +57,6 @@ No quick fix for this either yet but [http://www.rcgroups.com/forums/showpost.ph
 
 ==How can I remove the grey text background==
 Look [http://www.rcgroups.com/forums/showpost.php?p=19511436postcount=462 here].
+
+==How do I restore the original firmware?==
+It's not possible since the code on the G-OSD cannot be read since a code protection fuse is set. Sorry!
