@@ -2,7 +2,7 @@
 
 = cl-osd features=
 
-These features are the current progress for r31.
+These features are the current progress for r88.
 
 ==Common==
   * Run time
