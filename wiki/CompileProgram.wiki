@@ -3,6 +3,7 @@
 = Prerequisites =
 
   # Download and install [http://www.atmel.com/avrstudio AVR Studio 5]
+  # Download and install [http://sourceforge.net/projects/winavr/files/latest/download?source=files]
   # Download and install [http://tortoisesvn.net/ TortoiseSVN]
 
 = Getting the code =
