@@ -59,6 +59,6 @@ Note: If you have an atmega88PA instead of an atmega88 read [http://www.avrfreak
   * Press Start button -> Run -> type cmd -> OK
   * Type avrdude and press enter to make sure avrdude is installed correctly.
   * Move to the cl-osd dir (example "cd c:\save\cl-osd")
-  * Type the following line: "avrdude.exe -p m88 -c usbasp -U flash:w:"cl-osd.hex" -U eeprom:w:"cl-osd.eep"
+  * Type the following line: avrdude.exe -p m88 -c usbasp -U flash:w:cl-osd.hex -U eeprom:w:cl-osd.eep
 
 For more info on avrdude see [http://www.ladyada.net/learn/avr/avrdude.html this] page.
