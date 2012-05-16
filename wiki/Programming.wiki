@@ -54,7 +54,8 @@ Note: If you have an atmega88PA instead of an atmega88 read [http://www.avrfreak
 
 = Programming =
 
-*NOTE: Do not change the fuses on the AVR! You might brick you chip.*
+*NOTE: Do not change the fuses on the AVR unless you really need to! You might brick you chip.*
+*NOTE2: You will not be able to return to the original software!*
 
   * Press Start button -> Run -> type cmd -> OK
   * Type avrdude and press enter to make sure avrdude is installed correctly.
