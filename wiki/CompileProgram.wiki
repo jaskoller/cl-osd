@@ -2,7 +2,7 @@
 
 = Prerequisites =
 
-  # Download and install [http://www.atmel.com/microsite/avr_studio_5/default.aspx AVR Studio 5]
+  # Download and install [http://i.amniels.com/avr-studio-4-and-5-download-links AVR Studio 5]
   # Download and install [http://sourceforge.net/projects/winavr/files/latest/download?source=files WinAVR]
   # (or: Download and install [http://extremeelectronics.co.in/avr-tutorials/gui-software-for-usbasp-based-usb-avr-programmers/ eXtreme Burner- AVR])
   # Download and install [http://tortoisesvn.net/ TortoiseSVN]
