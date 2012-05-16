@@ -16,6 +16,8 @@
 
 = Compile =
 
+(If you just want to do some initial testing you don't need to do this step. Just use the pre-built hex and eep file. Note that this might not always work since you might need to do some configuration in the code.)
+
   # Open "cl-osd.avrgccproj" inside the "cl-osd" folder you created in the last step.
   # If you are using Avr Studio 5.1.208 or higher you need to do the following steps:
     * Go to Project->cl-osd Properties...
